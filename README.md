@@ -1,0 +1,2 @@
+# model_compress_tool_1
+算法是根据bn的绝对值的权重来剪枝的通道剪算法
