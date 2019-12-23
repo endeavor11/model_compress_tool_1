@@ -1,17 +1,4 @@
-#马上插入main.py 中导入的包
-from __future__ import print_function
-import os
-import argparse
-import shutil
-import numpy as np
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-from torchvision import datasets, transforms
-from resnet_v2 import Model
-
-#结束
+#上面是从main.py中插入的包
 import torch
 from main import train
 from main import test
@@ -81,11 +68,3 @@ if __name__ == '__main__':
     torch.save(new_model,"./logs/compressed_model.pth.tar")
 
     print("已存储压缩模型")
-
-
-
-
-
-
-
-
